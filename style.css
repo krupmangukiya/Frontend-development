@@ -1,0 +1,314 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    /* Dark background color */
+    color: #fff;
+    /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/backgroundimage1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Header Styles */
+
+header {
+    background-color: #121212;
+    /* Dark background color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 40px;
+    /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+
+/* Navigation Bar Styles */
+
+.navbar {
+    background-color: #121212;
+    /* Dark background color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar .logo img {
+    width: 40px;
+    /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #11c9fc;
+    /* Change to your desired hover color */
+}
+
+
+/* Advertisement Section Styles */
+
+.advertisement {
+    background-color: #333;
+    /* Darker background color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.advertisement h3 {
+    font-size: 24px;
+}
+
+.advertisement p {
+    font-size: 18px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #11c9fc;
+    /* Light blue button background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* Add this CSS to your style.css file */
+
+
+/* New Arrivals section */
+
+.new-arrivals .container {
+    display: flex;
+    /* Use flexbox to arrange items in a row */
+    flex-wrap: nowrap;
+    /* Prevent items from wrapping to the next line */
+    overflow: auto;
+    /* Add horizontal scrolling if the items don't fit in the viewport */
+}
+
+.product-card {
+    margin-right: 10px;
+    /* Add spacing between product cards */
+}
+
+
+/* Add this CSS to your style.css file */
+
+.product-card {
+    width: 300px;
+    /* Set the desired width for the product cards */
+    padding: 10px;
+    /* Add padding for spacing within each card */
+    margin-right: 20px;
+    /* Add spacing between product cards */
+    box-sizing: 10px;
+    /* Include padding and borders in the element's total width */
+}
+
+.product-card img {
+    max-width: 600px;
+    /* Make sure the product images don't exceed the width of the card */
+}
+
+
+/* Hero Section Styles */
+
+.hero {
+    background-image: url('fashionmodel1.jpeg');
+    /* Replace with your hero image */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* Featured Products Section Styles */
+
+
+/* Adjusted CSS for product cards */
+
+.product-card {
+    display: inline-block;
+    margin: 20px;
+    /* Reduced margin for better spacing */
+    padding: 20px;
+    text-align: center;
+    background-color: #161212;
+    /* Lighter background color */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Slightly darker box shadow */
+}
+
+.product-card img {
+    max-width: 100%;
+    /* Ensure images fit within the card */
+    border-radius: 10px 10px 0 0;
+    /* Apply border radius only to top corners */
+}
+
+.product-card h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #fca311;
+    padding: 0 10px;
+}
+
+.buy-button {
+    display: block;
+    padding: 10px;
+    background-color: #11c9fc;
+    color: #130e0e;
+    text-decoration: none;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    /* Added margin for separation */
+}
+
+
+/* Optional: Add styles for product container and center align the products */
+
+.featured-products {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/* Style for the cart */
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+
+/* Style for cart items */
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cart-item-info {
+    flex: 1;
+    padding: 10px;
+}
+
+
+/* Style for cart buttons */
+
+.cart-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: #2980b9;
+}
